@@ -9,7 +9,7 @@ extensions = [
         ['aabb.pyx',
                  'aabb_wrapper.cpp'],
         # libraries=['cgal'],
-        include_dirs=['.'
+        include_dirs=['.',
                       # add path to cgal, then boost include dirs
                     ],
         language='c++',
